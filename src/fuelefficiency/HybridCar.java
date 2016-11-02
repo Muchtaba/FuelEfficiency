@@ -11,4 +11,8 @@ package fuelefficiency;
  */
 public class HybridCar extends Vehicle {
 
+    public double getDistance(double litresUsed) {
+        double distance = litresUsed * 26.3157894737;
+        return distance;
+    }
 }

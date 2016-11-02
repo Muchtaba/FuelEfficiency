@@ -11,4 +11,8 @@ package fuelefficiency;
  */
 public class Motorcycle extends Vehicle {
 
+    public double getDistance(double litresUsed) {
+        double distance = litresUsed * 15.873015873;
+        return distance;
+    }
 }

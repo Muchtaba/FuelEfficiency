@@ -9,9 +9,9 @@ package fuelefficiency;
  *
  * @author mukaz1657
  */
-public class Vehicle {
+public abstract class Vehicle {
 
-    public void getDistance() {
+    String litres = "";
 
-    }
+    public abstract double getDistance(double litresUsed);
 }

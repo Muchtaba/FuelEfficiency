@@ -11,4 +11,8 @@ package fuelefficiency;
  */
 public class Truck extends Vehicle {
 
+    public double getDistance(double litresUsed) {
+        double distance = litresUsed * 7.09219858156;
+        return distance;
+    }
 }

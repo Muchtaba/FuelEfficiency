@@ -41,6 +41,11 @@ public class FuelEfficiency {
             if (choice.equals("4")) {
                 theArray[i] = new Truck();
             }
+
+            String litres = JOptionPane.showInputDialog("How many L's are u gonna take");
+            double litresUsed = Double.parseDouble(litres);
+
+            JOptionPane.showMessageDialog(null, theArray[i].getDistance(litresUsed));
         }
     }
 
